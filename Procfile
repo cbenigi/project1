@@ -1,1 +1,1 @@
-web: streamlit run reto_financiero_(1)_(1).py --server.port $PORT --server.address 0.0.0.0
+web: streamlit run reto_financiero.py --server.port $PORT --server.address 0.0.0.0

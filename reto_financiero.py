@@ -182,7 +182,7 @@ fig_weekly_returns.update_layout(
 
 fig_weekly_returns.show()
 
-df_monthly_close = df_close.resample('M').last()
+df_monthly_close = df_close.resample('ME').last()
 df_monthly_returns = df_monthly_close.pct_change().dropna()
 
 fig_monthly_returns = go.Figure()
